@@ -6,5 +6,5 @@
 
 运行随机雾化程序 **Randomfog.exe** 
 ![image](https://user-images.githubusercontent.com/45502587/180989934-fd41d7e1-edbc-4d3a-b6ce-592f72b466cc.png)  
-傅里叶变换模拟程序
+傅里叶变换模拟程序  
 ![image](https://user-images.githubusercontent.com/45502587/180990329-a63659a0-1161-472d-ab0b-09a08108a1a3.png)
