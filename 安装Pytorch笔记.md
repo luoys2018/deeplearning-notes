@@ -1,4 +1,6 @@
 # 确认Cuda安装是否成功  
+cuda版本对应表  
+https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions  
 
 在文件目录'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\extras\demo_suite'中  
 运行 **deviceQuery.exe**
