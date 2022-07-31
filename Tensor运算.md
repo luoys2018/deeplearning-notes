@@ -8,7 +8,7 @@
  见 https://pytorch.org/docs/stable/tensors.html
  # 张量创建的方式  
  ## 1.通过 torch.tensor()和torch.Tensor()创建  
- ```python
+'''python
  a = torch.tensor(4)  
  print(a)              # 输出:tensor(4) 
  anp = np.asarray([4])
@@ -67,8 +67,8 @@ print( b )
 c = a+b
 print(c)
 print(c.shape)
-```
-输出：
+```     
+输出：  
 '''
 tensor([[[ 0.0806, -1.4283,  1.6279, -0.6479,  2.2093],
          [-0.1569, -0.1719, -0.1804,  1.7837,  0.6122],
@@ -109,5 +109,5 @@ tensor([[[ 1.1018,  1.2082,  1.9577, -1.4162,  0.8136],
          [ 0.4872,  1.0184,  0.0893,  0.5717, -0.9444],
          [-0.6400, -1.3136, -1.6855,  0.8881, -2.2252]]])
 torch.Size([3, 4, 5])
-'''
+'''  
  
