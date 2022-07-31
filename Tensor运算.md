@@ -7,10 +7,10 @@
  # 张量的数据类型  
  见 https://pytorch.org/docs/stable/tensors.html
  # 张量创建的方式  
- ## 1.通过 torch.tensor()和torch.Tensor()创建  
-'''python
- a = torch.tensor(4)  
- print(a)              # 输出:tensor(4) 
+ ## 1.通过 torch.tensor()和torch.Tensor()创建   
+```python
+a = torch.tensor(4)  
+print(a)              # 输出:tensor(4) 
  anp = np.asarray([4])
  a = torch.tensor(anp) 
  print(a)              # 输出：tensor([4], dtype=torch.int32)
@@ -24,9 +24,10 @@
  print( torch.numel(b))
  b = torch.Tensor([1,2]) # 定义一个指定内容的张量
  print(b)
- ```
- ![image](https://user-images.githubusercontent.com/45502587/181870453-1c7a4c48-dbef-47fc-bb72-2d195cbd7350.png)  
-
+ ```  
+ 输出
+![image](https://user-images.githubusercontent.com/45502587/181870453-1c7a4c48-dbef-47fc-bb72-2d195cbd7350.png)   
+ 
  ## 2.通过pytorch内置函数创建  
  torch.ones()  # 指定形状、元素值均为1的张量数组  
  torch.zeros()  # 指定形状、元素值均为0的张量数组  
@@ -36,7 +37,7 @@
  torch.eye()   # 生成对角矩阵的张量  
  torch.full()  # 生成元素值均为1的矩阵的张量  
  
- ```python
+```python
 shape = (2,3,)
 rand_tensor = torch.rand(shape)
 ones_tensor = torch.ones(shape)
@@ -53,7 +54,7 @@ print(f"Zeros Tensor: \n {zeros_tensor}")
  ## 张量的广播（Broadcast）  
    在张量运算过程中，会遇到两个不同维度张量之间进行四则运算，且它们的某些维度相同。完成扩增维度的两个张量必须能够在维度上对齐。
    
-'''python
+```python
 a = torch.randn(3,4,5)
 print(a)
 print( a.shape )
@@ -69,7 +70,7 @@ print(c)
 print(c.shape)
 ```     
 输出：  
-'''
+```
 tensor([[[ 0.0806, -1.4283,  1.6279, -0.6479,  2.2093],
          [-0.1569, -0.1719, -0.1804,  1.7837,  0.6122],
          [-0.2988,  0.3605, -0.4008, -1.9513, -0.2597],
@@ -109,5 +110,5 @@ tensor([[[ 1.1018,  1.2082,  1.9577, -1.4162,  0.8136],
          [ 0.4872,  1.0184,  0.0893,  0.5717, -0.9444],
          [-0.6400, -1.3136, -1.6855,  0.8881, -2.2252]]])
 torch.Size([3, 4, 5])
-'''  
+```  
  
