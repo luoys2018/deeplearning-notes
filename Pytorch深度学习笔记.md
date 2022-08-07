@@ -16,3 +16,11 @@ torch.arange(1, 2.5, 0.5)
 ```
 
 ![image](https://user-images.githubusercontent.com/45502587/183271552-e6303c81-d622-4a4a-9f4f-6486bfa7ec28.png)
+
+# torch.range()函数
+>torch.range(start=0, end, step=1, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False) → Tensor
+## 返回值
+
+## 参数
+
+## 代码举例
