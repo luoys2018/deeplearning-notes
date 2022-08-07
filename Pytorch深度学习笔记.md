@@ -21,7 +21,7 @@ torch.arange(1, 2.5, 0.5)
 >torch.range(start=0, end, step=1, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False) → Tensor
 ## 返回值
 a 1-D tensor of size $\left\lfloor \frac{\text{end} - \text{start}}{\text{step}} \right\rfloor + 1$ with values from start to end with step step. Step is the gap between two values in the tensor.
-$\text{out}_{i+1} = \text{out}_i + \text{step}.out i+1 =out i +step$.
+$\text{out}_{i+1} = \text{out}_i + \text{step}$.
 ## 参数
 
 ## 代码举例
