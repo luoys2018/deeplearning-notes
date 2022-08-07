@@ -9,9 +9,10 @@ Returns a 1-D tensor of size $\left\lceil \frac{\text{end} - \text{start}}{\text
 -- **step (Number)** – the gap between each pair of adjacent points. Default: 1.  
 
 ## 代码举例
-'''python
+```python  
 torch.arange(5)
 torch.arange(1, 4)
 torch.arange(1, 2.5, 0.5)
 ```
+
 ![image](https://user-images.githubusercontent.com/45502587/183271552-e6303c81-d622-4a4a-9f4f-6486bfa7ec28.png)
