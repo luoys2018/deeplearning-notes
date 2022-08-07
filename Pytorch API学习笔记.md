@@ -29,6 +29,7 @@ $\text{out}_{i+1} = \text{out}_i + \text{step}$.
 -- **step (float)** – the gap between each pair of adjacent points. Default: 1.  
 ## 代码举例
 ```python
+a1 = torch.range(1, 4)
 print("a1: ",a1)
 print("a1's data type: ", a1.dtype)
 a2 = torch.range(1, 4, 0.5)
