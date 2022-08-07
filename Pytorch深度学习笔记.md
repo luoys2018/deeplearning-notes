@@ -22,6 +22,7 @@ torch.arange(1, 2.5, 0.5)
 ## 返回值
 a 1-D tensor of size $\left\lfloor \frac{\text{end} - \text{start}}{\text{step}} \right\rfloor + 1$ with values from start to end with step step. Step is the gap between two values in the tensor.
 $\text{out}_{i+1} = \text{out}_i + \text{step}$.
+注意：该函数已弃用。
 ## 参数
 
 ## 代码举例
