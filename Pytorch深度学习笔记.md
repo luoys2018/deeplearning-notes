@@ -4,6 +4,6 @@
 ## 返回值
 Returns a 1-D tensor of size $\left\lceil \frac{\text{end} - \text{start}}{\text{step}} \right\rceil$ with values from the interval [start, end) taken with common difference step beginning from start.
 ## 参数
---start (Number) – the starting value for the set of points. Default: 0.
---end (Number) – the ending value for the set of points
--- step (Number) – the gap between each pair of adjacent points. Default: 1.
+--**start (Number)** – the starting value for the set of points. Default: 0.  
+--**end (Number)**– the ending value for the set of points  
+-- **step (Number)** – the gap between each pair of adjacent points. Default: 1.  
