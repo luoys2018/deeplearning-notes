@@ -14,7 +14,7 @@ torch.arange(5)
 torch.arange(1, 4)
 torch.arange(1, 2.5, 0.5)
 ```
-
+## 代码运行结果  
 ![image](https://user-images.githubusercontent.com/45502587/183271552-e6303c81-d622-4a4a-9f4f-6486bfa7ec28.png)
 
 # torch.range()函数
@@ -36,6 +36,7 @@ a2 = torch.range(1, 4, 0.5)
 print("a2:", a2)
 print("a2's data type： ", a2.dtype)
 ```
+## 代码运行结果  
 ![image](https://user-images.githubusercontent.com/45502587/183281864-0baa5a28-70ee-48d9-b7d6-f5d6265e0d0f.png)  
 
 # torch.reshape() 函数
