@@ -47,7 +47,7 @@ Returns a tensor with the same data and number of elements as input, but with th
 返回与输入数据和元素数量一样的tensor，但形状不同。shape中的单个维数值可以为-1，其最后的维数由其他维数和元素数量计算得到，如果无法整除则会报错。  
 ## 参数  
 ## 代码举例  
-```python
+```Python
 a = torch.arange(4.)
 print(a)
 b = torch.reshape(a, (2, 2))
