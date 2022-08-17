@@ -25,8 +25,8 @@ $\text{out}_{i+1} = \text{out}_i + \text{step}$.
 注意：该函数已弃用。
 ## 参数
 + **start (float)** – the starting value for the set of points. Default: 0.  
--- **end (float)** – the ending value for the set of points.  
--- **step (float)** – the gap between each pair of adjacent points. Default: 1.  
+- **end (float)** – the ending value for the set of points.  
+* **step (float)** – the gap between each pair of adjacent points. Default: 1.  
 ## 代码举例
 ```python
 a1 = torch.range(1, 4)
