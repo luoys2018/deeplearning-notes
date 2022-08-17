@@ -37,3 +37,8 @@ print("a2:", a2)
 print("a2's data type： ", a2.dtype)
 ```
 ![image](https://user-images.githubusercontent.com/45502587/183281864-0baa5a28-70ee-48d9-b7d6-f5d6265e0d0f.png)  
+
+# torch.reshape() 函数
+torch.reshape(input, shape) → Tensor  
+## Returns a tensor with the same data and number of elements as input, but with the specified shape. When possible, the returned tensor will be a view of input. Otherwise, it will be a copy. Contiguous inputs and inputs with compatible strides can be reshaped without copying, but you should not depend on the copying vs. viewing behavior.  
+返回与输入数据和元素数量一样的tensor，但形状不同。shape中的单个维数值可以为-1，其最后的维数由其他维数和元素数量计算得到。  
