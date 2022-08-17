@@ -51,14 +51,19 @@ print(a)
 b = torch.reshape(a, (2, 2))
 print(b)
 c = torch.tensor([[0, 1, 4], [2, 3, 6]])
+print(torch.reshape(c, (3,2)))
 print(torch.reshape(c, (-1,)))
 print(torch.reshape(c, (-1,2)))
 print(torch.reshape(c, (2,-1)))
 ```
 ## 代码运行结果
 ```python
+tensor([0., 1., 2., 3.])
 tensor([[0., 1.],
         [2., 3.]])
+tensor([[0, 1],
+        [4, 2],
+        [3, 6]])
 tensor([0, 1, 4, 2, 3, 6])
 tensor([[0, 1],
         [4, 2],
