@@ -24,7 +24,7 @@ a 1-D tensor of size $\left\lfloor \frac{\text{end} - \text{start}}{\text{step}}
 $\text{out}_{i+1} = \text{out}_i + \text{step}$.  
 注意：该函数已弃用。
 ## 参数
-1+ -- **start (float)** – the starting value for the set of points. Default: 0.  
+1+'.' -- **start (float)** – the starting value for the set of points. Default: 0.  
 -- **end (float)** – the ending value for the set of points.  
 -- **step (float)** – the gap between each pair of adjacent points. Default: 1.  
 ## 代码举例
