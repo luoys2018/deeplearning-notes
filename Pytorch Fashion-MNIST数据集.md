@@ -5,14 +5,14 @@ FashionMNIST的大小、格式和训练集/测试集划分与原始的MNIST完�
 数据集的下载和介绍网址：(https://www.kaggle.com/datasets/zalando-research/fashionmnist)   
 数据集类别：  
 | 标签  | 类别名称|
-| ----- | ------ |  
-|0 | T-shirt/top|
-|1 |Trouser|
-|2 |Pullover|
-|3 |Dress|
-|4 |Coat|
-|5 |Sandal|
-|6 |Shirt|
-|7 |Sneaker|
-|8 |Bag|
-|9 |Ankle boot |
+| ----- | --------------------- |  
+|0      | T-shirt/top（T恤/上衣）|
+|1 |Trouser（裤子）|
+|2 |Pullover（套衫）|
+|3 |Dress（裙子）|
+|4 |Coat（外套）|
+|5 |Sandal（凉鞋）|
+|6 |Shirt（衬衫）|
+|7 |Sneaker（运动鞋）|
+|8 |Bag（包）|
+|9 |Ankle boot（踝鞋） |
