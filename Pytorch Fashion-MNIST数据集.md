@@ -4,9 +4,9 @@ FashionMNIST数据集是一个替代MNIST手写数字集的图像数据集。 �
 FashionMNIST的大小、格式和训练集/测试集划分与原始的MNIST完全一致。单个样本为28x28像素的灰度图片，按照60000张训练集、10000张测试集图片划分。  
 数据集的下载和介绍网址：(可见：https://www.kaggle.com/datasets/zalando-research/fashionmnist)   
 + Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist  
-+ Dataset was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/  
++ Dataset was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/   
 数据集类别：  
-| 标签  | 类别名称|
+| 标签  | 类别名称|  
 | ----- | --------------------- |  
 |0      | T-shirt/top（T恤/上衣）|
 |1 |Trouser（裤子）|
