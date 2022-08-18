@@ -5,7 +5,8 @@ FashionMNIST的大小、格式和训练集/测试集划分与原始的MNIST完�
 数据集的下载和介绍网址：(可见：https://www.kaggle.com/datasets/zalando-research/fashionmnist)   
 + Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist  
 + Dataset was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/   
-fashion-mnist_train.csv和fashion-mnist_test.csv中均为784（28$\times$28）+1（标签）列
+fashion-mnist_train.csv和fashion-mnist_test.csv中均为784（$28\times28$）+1（标签）列
+
 **数据集类别**：  
 | 标签  | 类别名称|  
 | ----- | --------------------- |  
