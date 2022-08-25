@@ -3,7 +3,7 @@ FashionMNIST数据集是一个替代MNIST手写数字集的图像数据集。 �
 替代MNIST数据集的原因是其图片为手写数字，太过简单，许多算法在该数据集上的性能可以达到99.6%，无法真实比较各种算法的性能。  
 FashionMNIST的大小、格式和训练集/测试集划分与原始的MNIST完全一致。单个样本为28x28像素的灰度图片，按照60000张训练集、10000张测试集图片划分。  
 数据集的下载和介绍网址：(可见：https://www.kaggle.com/datasets/zalando-research/fashionmnist)   
-+ Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist  
++ Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist （该网站有各种经典算法性能对比） 
 + Dataset was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/   
 fashion-mnist_train.csv和fashion-mnist_test.csv中均为784（ $28\times 28$像素）+1（标签）列  
 
@@ -20,3 +20,6 @@ fashion-mnist_train.csv和fashion-mnist_test.csv中均为784（ $28\times 28$像
 |7 |Sneaker（运动鞋）|
 |8 |Bag（包）|
 |9 |Ankle boot（踝鞋） |
+
+## 数据集读取  
+读取图片格式不是很明白（8月25日）  
